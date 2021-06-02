@@ -1,0 +1,7 @@
+{
+  "name": "onion-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
