@@ -1,20 +1,58 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header class="ion-no-border">
+  <ion-item lines="none">
+    <ion-avatar slot="end">
+      <img src="http://192.168.1.25/master/img/insoft.png">
+    </ion-avatar>
+    <ion-label>
+      <h2>UNION CHICKEN</h2>
+      <p>INSOFT ASIA</p>
+    </ion-label>
+  </ion-item>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content>
+  <div class="myDiv">
+    <img width="400" height="220px" class="headerImg"
+      src="https://unionchicken.com/v2/wp-content/uploads/UR-HR-20200619-AF2_3020-1024x683.jpg">
   </div>
+  <center>
+    <div>
+      <ion-button fill="outline" color="secondary">
+        <ion-icon class="icon-p" name="options-outline"></ion-icon>
+        <label>Filter</label>
+      </ion-button>
+
+      <ion-button fill="outline" color="secondary">
+        <ion-icon class="icon-p" name="caret-down"></ion-icon>
+        <label>Sort</label>
+      </ion-button>
+      <ion-button fill="outline" color="secondary">
+        <ion-icon class="icon-p" name="star"></ion-icon>
+        <label>Star</label>
+      </ion-button>
+    </div>
+  </center>
+
+  <mat-card>
+    <mat-card-content>
+      <img mat-card-image src="https://unionchicken.com/v2/wp-content/uploads/UR-HR-20200619-AF2_3020-1024x683.jpg">
+      <mat-card-title><b>CHICKEN UNION #1</b></mat-card-title>
+      <mat-card-subtitle>
+        UNION CHICKEN
+      </mat-card-subtitle>
+      <mat-catd-subtitle>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star-outline"></ion-icon>
+        <ion-icon name="star-outline"></ion-icon>
+      </mat-catd-subtitle>
+    </mat-card-content>
+  </mat-card>
+
+
+
+
+
+
 </ion-content>
